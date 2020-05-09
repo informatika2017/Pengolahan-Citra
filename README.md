@@ -39,3 +39,5 @@ Dokumentasi lainnya bisa di cek [disini](https://confluence.atlassian.com/bitbuc
 5. `git status` for check changes file in local repository
 6. `git commit -m "commit message"` for send changes file to remote repository but repository not changes before push
 7. `git push origin <branchname>` for send changes file after commit to repository
+
+> *Note* Dont touch master branch , create new branch instead
