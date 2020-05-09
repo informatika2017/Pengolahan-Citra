@@ -25,3 +25,13 @@ Git adalah version control system yang digunakan para developer untuk mengembang
 | `git merge <branchname>` | Menggabungkan branch ke branch aktif |
 
 Dokumentasi lainnya bisa di cek [disini](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+
+### Usage
+
+1. `git config --global user.email sam@example.com`
+2. `git clone https://github.com/informatika2017/Pengolahan-Citra.git` in the terminal or command prompt
+3. `git checkout -b <namebranch>` for create new branch ex. your name
+4. `git add <filename> or git add .` for add any file from local to remote repository
+5. `git status` for check changes file in local repository
+6. `git commit -m "commit message"` for send changes file to remote repository but repository not changes before push
+7. `git push origin <branchname>` for send changes file after commit to repository
