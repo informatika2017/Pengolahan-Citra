@@ -2,6 +2,20 @@
 
 Ini adalah Repository informatika 2017, untuk memenuhi tugas Pengolahan Citra
 
+## Installation OpenCV
+
+1. Download [python](https://www.python.org/downloads/)
+2. Open your Command Prompt or Terminal
+
+```
+1. `pip install opencv-python`
+2. `pip install opencv-contrib-python`
+3. `pip install opencv-python-headless`
+4. `pip install opencv-contrib-python-headless`
+```
+
+> *Note :* for testing `import cv2` hit enter , run `print cv2.__version__`
+
 ## Belajar-Git
 
 Git adalah version control system yang digunakan para developer untuk mengembangkan software secara bersama-bersama. Fungsi utama git yaitu mengatur versi dari source code program anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti.
@@ -15,7 +29,7 @@ Git adalah version control system yang digunakan para developer untuk mengembang
 
 | Command | Description |
 | --- | --- |
-| `git git config --global user.email sam@example.com` | Inisialisasi User untuk Git |
+| `git config --global user.email sam@example.com` | Inisialisasi User untuk Git |
 | `git init` | Untuk membuat repository pada file lokal |
 | `git remote add origin <server>` | Untuk menghubungkan repository lokal ke server |
 | `git add <filename>` or `git add *` | Menambahkan satu file atau banyak file pada Repository |
@@ -40,4 +54,4 @@ Dokumentasi lainnya bisa di cek [disini](https://confluence.atlassian.com/bitbuc
 6. `git commit -m "commit message"` for send changes file to remote repository but repository not changes before push
 7. `git push origin <branchname>` for send changes file after commit to repository
 
-> *Note* Dont touch master branch , create new branch instead
+> *Note :* Dont touch master branch , create new branch instead
