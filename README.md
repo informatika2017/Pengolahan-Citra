@@ -8,10 +8,12 @@ Ini adalah Repository informatika 2017, untuk memenuhi tugas Pengolahan Citra
 2. Open your Command Prompt or Terminal
 
 ```
-1. pip install opencv-python
-2. pip install opencv-contrib-python
-3. pip install opencv-python-headless
-4. pip install opencv-contrib-python-headless
+1. pip install numpy
+2. pip install matplotlib
+3. pip install opencv-python
+4. pip install opencv-contrib-python
+5. pip install opencv-python-headless
+6. pip install opencv-contrib-python-headless
 ```
 
 > *Note :* for testing `import cv2` hit enter , run `print cv2.__version__`
